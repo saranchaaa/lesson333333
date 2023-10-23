@@ -23,13 +23,17 @@ class Car:
 
 hh1 = input("What is the first passenger's name? - ")
 hh2 = input("What is the second passenger's name? - ")
+hh3 = input("What is the third passenger's name? - ")
+hh4 = input("What is the fourth passenger's name? - ")
 
 h1 = Human(hh1)
 h2 = Human(hh2)
+h3 = Human(hh3)
+h4 = Human(hh4)
 
 cc = input("What is the car name? - ")
 
 car = Car(cc)
-car.add_ps(h1, h2)
+car.add_ps(h1, h2, h3, h4)
 
 car.print_ps()
